@@ -66,6 +66,8 @@ y_offensive = np.array(y_df[1])
 ```
 - Cleaning the Texts
 
+Performing  PorterStemmer
+
 ```bash
 corpus = []
 for i in range(0, 24783):
@@ -79,14 +81,13 @@ for i in range(0, 24783):
   review = ' '.join(review)
   corpus.append(review)
  ```
-Performing  PorterStemmer
+ 
+Performing CountVectorizer
 
 ```bash
 cv = CountVectorizer(max_features = 2000)
 X = cv.fit_transform(corpus).toarray()
-```
-  Performing CountVectorizer
-  
+```  
 - Splitting the dataset into the Training set and Test set
 
 ```bash
