@@ -148,8 +148,8 @@ print('Support Vector Machine Accuracy: ', str(svm_score))
 print('Logistic Regression Accuracy: ',str(lr_score))
 print('Naive Bayes Accuracy: ', str(np_score))
 ```
-Support Vector Machine Accuracy:  0.9440484196368527
-Logistic Regression Accuracy:  0.9402824478816408
+Support Vector Machine Accuracy:  0.9440484196368527<br>
+Logistic Regression Accuracy:  0.9402824478816408<br>
 Naive Bayes Accuracy:  0.4772024209818426
 
 
