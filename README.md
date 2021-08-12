@@ -20,4 +20,4 @@
 <li><p><b>Logistic Regression</b></p></li>
 <li><p><b>Gaussian Naive Bayes Classifier</b></p></li>
 </ul>
-![Svm](Images/Svm.png)
+![Svm](https://github.com/taurus169/Rm_Vikas_Patel/blob/main/Images/Svm.png)
