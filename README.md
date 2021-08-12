@@ -158,13 +158,13 @@ Naive Bayes Accuracy:  0.4772024209818426
 
 <h2>Support</h2>
 
-- See the [full project overview](https://github.com/sidneykung/twitter_hate_speech_detection/blob/master/final_notebook.ipynb) in the `final_notebook.ipynb` Jupyter Notebook.
+- See the [full project overview](https://github.com/taurus169/Rm_Vikas_Patel/blob/main/RM_Project_hate_speech_detection.ipynb) in the `RM_Project_hate_speech_detection.ipynb` Jupyter Notebook.
 
-- For additional information or suggestions, contact Sidney Kung at [paarav98@gmail.com](mailto:paarav98@gmail.com)
+- For additional information or suggestions, contact Vikas Patel at [paarav98@gmail.com](mailto:paarav98@gmail.com)
 
 **Let's connect!**
 
-<a href="www.linkedin.com/in/taurus169" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/taurus169/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 <h2>Authors and Acknowledgements</h2>
 
