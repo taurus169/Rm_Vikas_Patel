@@ -156,8 +156,15 @@ Naive Bayes Accuracy:  0.4772024209818426
 
 <p> So Based on this dataset, Support Vector Machine appears to be a superior predictor of hate speech. It's worth noting that Logistic Regression produced excellent results as well. This Dataset appears to be an artificial intelligence product used to classify hate and abusive speech.</p>
 
-<h2>Contact</h2>
-![Email Me](paarav98@gmail.com)
+<h2>Support</h2>
+
+- See the [full project overview](https://github.com/sidneykung/twitter_hate_speech_detection/blob/master/final_notebook.ipynb) in the `final_notebook.ipynb` Jupyter Notebook.
+
+- For additional information or suggestions, contact Sidney Kung at [paarav98@gmail.com](mailto:paarav98@gmail.com)
+
+**Let's connect!**
+
+<a href="www.linkedin.com/in/taurus169" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 <h2>Authors and Acknowledgements</h2>
 
