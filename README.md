@@ -6,8 +6,8 @@
 <p><b>Link for dataset: https://www.kaggle.com/mrmorj/hate-speech-and-offensive-language-dataset</b></p>
 <h2> Here we have used three machine learning algorithms:</h2>
 <ul>
-  <li><p><b>Naive Bayes:</b> Naive Bayes are a group of supervised machine learning classification algorithms based on the Bayes theorem. It's a basic classification method with high functionality. Gaussian Naive Bayes is a Naive Bayes version that uses a Gaussian normal distribution and can handle continuous data.</p></li>
-<li><p><b>Support Vector Machine:</b> Support Vector Machine is a supervised machine learning method that can be used for classification and regression. Support Vector Machines are based on the concept of determining the optimal hyperplane for dividing a dataset into two groups.</p></li>
+<li><p><b>Naive Bayes:</b> Naive Bayes are a group of supervised machine learning classification algorithms based on the Bayes theorem. It's a basic classification method with high functionality. Gaussian Naive Bayes is a Naive Bayes version that uses a Gaussian normal distribution and can handle continuous data.</p></li>
+<li><p><b>Support Vector Machine:</b> Support Vector Machine is a supervised machine learning method that can be used for classification and regression. Support Vector Machines are based on the concept of determining the optimal hyperplane for dividing a dataset into two groups.</p></li>![Svm](https://user-images.githubusercontent.com/66897930/129128570-f55eb156-ea3d-4e47-95a3-fb80665575cf.png)
 <li><p><b>Logistic Regression</b></p></li>
 </ul>
 <h2> Tools used for project development: </h2>
