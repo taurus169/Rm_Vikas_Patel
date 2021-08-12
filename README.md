@@ -168,4 +168,11 @@ Naive Bayes Accuracy:  0.4772024209818426
 
 <h2>Authors and Acknowledgements</h2>
 
-<h2>Project Status</h2>
+<h2>Next Steps</h2>
+
+To further develop this project, here are some immediate next steps that anyone could execute.
+
+- Collect more potential "Hate Speech" data
+- Improve final model with different preprocessing techniques, such as removing offensive language as stop words
+- Evaluate model with new tweets or other online forum data to see if it can generalize well
+- Applying Optimizing Techniques
