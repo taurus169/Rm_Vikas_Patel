@@ -7,8 +7,7 @@
 <h2> Here we have used three machine learning algorithms:</h2>
 <ul>
 <li><p><b>Naive Bayes:</b> Naive Bayes are a group of supervised machine learning classification algorithms based on the Bayes theorem. It's a basic classification method with high functionality. Gaussian Naive Bayes is a Naive Bayes version that uses a Gaussian normal distribution and can handle continuous data.</p></li>
-<li><p><b>Support Vector Machine:</b> Support Vector Machine is a supervised machine learning method that can be used for classification and regression. Support Vector Machines are based on the concept of determining the optimal hyperplane for dividing a dataset into two groups.![svm](https://user-images.githubusercontent.com/66897930/129129333-31eff01a-c441-46f8-ac4a-22d1e9cac456.jpg)
- </p></li>
+<li><p><b>Support Vector Machine:</b> Support Vector Machine is a supervised machine learning method that can be used for classification and regression. Support Vector Machines are based on the concept of determining the optimal hyperplane for dividing a dataset into two groups.</p></li>
 <li><p><b>Logistic Regression:</b> Logistic Regression is a predictive method that uses independent factors to predict the dependent variable, where the dependent variable must be a categorical variable. It assumes a linear relationship between the input variables with the output.</p></li>
 </ul>
 <h2> Tools used for project development: </h2>
@@ -21,3 +20,4 @@
 <li><p><b>Logistic Regression</b></p></li>
 <li><p><b>Gaussian Naive Bayes Classifier</b></p></li>
 </ul>
+![Svm](Images/Svm.png)
