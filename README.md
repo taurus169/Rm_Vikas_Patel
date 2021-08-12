@@ -65,7 +65,9 @@ y_hate = np.array(y_df[0])
 y_offensive = np.array(y_df[1])
 ```
 - Cleaning the Texts
-<p>Performing  PorterStemmer</p>
+
+Performing  PorterStemmer
+
 ```bash
 corpus = []
 for i in range(0, 24783):
@@ -84,3 +86,34 @@ for i in range(0, 24783):
 cv = CountVectorizer(max_features = 2000)
 X = cv.fit_transform(corpus).toarray()
 ```
+- Splitting the dataset into the Training set and Test set
+
+```bash
+X_train, X_test, y_train, y_test = train_test_split(X, y_hate, test_size = 0.30, random_state = 0)
+```
+-Finding the best models to predict hate speech
+
+NaiveBayes
+
+```bash
+classifier_np = GaussianNB()
+classifier_np.fit(X_train, y_train)
+```
+
+Logistic Regression
+
+```bash
+classifier_lr = LogisticRegression(random_state = 0)
+classifier_lr.fit(X_train, y_train)
+```
+
+Support Vector Machine
+
+```bash
+classifier_svm = svm.SVC()
+classifier_svm.fit(X_train, y_train)
+```
+
+- Making the Confusion Matrix for each model
+
+
