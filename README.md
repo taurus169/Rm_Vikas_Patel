@@ -22,8 +22,8 @@
 </ul>
 <h2>Running Code and Usage</h2>
 
-- This project is done using python programming. It is best to use python3(latest python version). I have run this code on google colab, you can do the same. First of all you need to download the dataset from https://www.kaggle.com/mrmorj/hate-speech-and-offensive-language-dataset . After downloading the dataset, open a new notebook on google colab and give it a name. You can upload the dataset csv file using drag and drop to folders part on left side of the page. Now the first step is importing libraries and packages. Python 3 environment comes with many helpful analytics libraries installed.
-
+- This project is done using python programming. It is best to use python3(latest python version). I have run this code on google colab, you can do the same. First of all you need to download the dataset from https://www.kaggle.com/mrmorj/hate-speech-and-offensive-language-dataset . After downloading the dataset, open a new notebook on google colab and give it a name. You can upload the dataset csv file using drag and drop to folders part on left side of the page. Python 3 environment comes with many helpful analytics libraries installed.
+-  Importing libraries and packages.
 ```bash
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
@@ -115,5 +115,38 @@ classifier_svm.fit(X_train, y_train)
 ```
 
 - Making the Confusion Matrix for each model
+
+NaiveBayes
+
+```bash
+y_pred_np = classifier_np.predict(X_test)
+cm = confusion_matrix(y_test, y_pred_np)
+print(cm)
+```
+Support Vector Machine
+
+```bash
+y_pred_svm = classifier_svm.predict(X_test)
+cm = confusion_matrix(y_test, y_pred_svm)
+print(cm)
+```
+Logistic Regression
+
+```bash
+y_pred_lr=classifier_lr.predict(X_test)
+cm = confusion_matrix(y_test, y_pred_lr)
+print(cm)
+```
+Accuracy Score for all three models
+
+```bash
+svm_score = accuracy_score(y_test, y_pred_svm)
+lr_score = accuracy_score(y_test, y_pred_lr)
+np_score = accuracy_score(y_test, y_pred_np)
+
+print('Support Vector Machine Accuracy: ', str(svm_score))
+print('Logistic Regression Accuracy: ',str(lr_score))
+print('Naive Bayes Accuracy: ', str(np_score))
+```
 
 
