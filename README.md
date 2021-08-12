@@ -152,4 +152,5 @@ Support Vector Machine Accuracy:  0.9440484196368527<br>
 Logistic Regression Accuracy:  0.9402824478816408<br>
 Naive Bayes Accuracy:  0.4772024209818426
 
+<p> So Based on this dataset, Support Vector Machine appears to be a superior predictor of hate speech. It's worth noting that Logistic Regression produced excellent results as well. This Dataset appears to be an artificial intelligence product used to classify hate and abusive speech.</p>
 
