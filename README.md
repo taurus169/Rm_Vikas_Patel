@@ -7,7 +7,7 @@
 <h2> Here we have used three machine learning algorithms:</h2>
 <ul>
 <li><p><b>Naive Bayes:</b> Naive Bayes are a group of supervised machine learning classification algorithms based on the Bayes theorem. It's a basic classification method with high functionality. Gaussian Naive Bayes is a Naive Bayes version that uses a Gaussian normal distribution and can handle continuous data.</p></li>
-<li><p><b>Support Vector Machine:</b> Support Vector Machine is a supervised machine learning method that can be used for classification and regression. Support Vector Machines are based on the concept of determining the optimal hyperplane for dividing a dataset into two groups.</p></li>
+<li><p><b>Support Vector Machine:</b> Support Vector Machine is a supervised machine learning method that can be used for classification and regression. Support Vector Machines are based on the concept of determining the optimal hyperplane for dividing a dataset into two groups. ![Svm](https://github.com/taurus169/Rm_Vikas_Patel/blob/main/Images/Svm.png)</p></li>
 <li><p><b>Logistic Regression:</b> Logistic Regression is a predictive method that uses independent factors to predict the dependent variable, where the dependent variable must be a categorical variable. It assumes a linear relationship between the input variables with the output.</p></li>
 </ul>
 <h2> Tools used for project development: </h2>
@@ -20,4 +20,67 @@
 <li><p><b>Logistic Regression</b></p></li>
 <li><p><b>Gaussian Naive Bayes Classifier</b></p></li>
 </ul>
-![Svm](https://github.com/taurus169/Rm_Vikas_Patel/blob/main/Images/Svm.png)
+<h2>Running Code and Usage</h2>
+
+- This project is done using python programming. It is best to use python3(latest python version). I have run this code on google colab, you can do the same. First of all you need to download the dataset from https://www.kaggle.com/mrmorj/hate-speech-and-offensive-language-dataset . After downloading the dataset, open a new notebook on google colab and give it a name. You can upload the dataset csv file using drag and drop to folders part on left side of the page. Now the first step is importing libraries and packages. Python 3 environment comes with many helpful analytics libraries installed.
+
+```bash
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+import re
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+from nltk.stem.porter import PorterStemmer
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn import svm
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import confusion_matrix, accuracy_score
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+```
+- Importing the dataset
+
+```bash
+dataset = pd.read_csv('/content/labeled_data.csv')
+dataset.head()
+```
+- Encoding the dependent variable
+```bash
+ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [0])], remainder='passthrough')
+y = np.array(ct.fit_transform(y))
+```
+  This data has been split into two variables that will be used to fit hate speech and offensive speech models.
+```bash
+y_df = pd.DataFrame(y)
+y_hate = np.array(y_df[0])
+y_offensive = np.array(y_df[1])
+```
+- Cleaning the Texts
+<p>Performing  PorterStemmer</p>
+```bash
+corpus = []
+for i in range(0, 24783):
+  review = re.sub('[^a-zA-Z]', ' ', dt_trasformed['tweet'][i])
+  review = review.lower()
+  review = review.split()
+  ps = PorterStemmer()
+  all_stopwords = stopwords.words('english')
+  all_stopwords.remove('not')
+  review = [ps.stem(word) for word in review if not word in set(all_stopwords)]
+  review = ' '.join(review)
+  corpus.append(review)
+ ```
+  Performing CountVectorizer
+```bash
+cv = CountVectorizer(max_features = 2000)
+X = cv.fit_transform(corpus).toarray()
+```
