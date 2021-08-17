@@ -12,7 +12,7 @@
 src=“images/Svm.png”
 raw=true
 alt=“SVM”
-style=“margin-right: 10px;”
+style=“margin-right: 10px; width= 5 px; height= 5px;”
 />
     ![Svm](Images/Svm.png)
 </p></li>
