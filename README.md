@@ -8,13 +8,7 @@
 <ul>
 <li><p><b>Naive Bayes:</b> Naive Bayes are a group of supervised machine learning classification algorithms based on the Bayes theorem. It's a basic classification method with high functionality. Gaussian Naive Bayes is a Naive Bayes version that uses a Gaussian normal distribution and can handle continuous data.</p></li>
 <li><p><b>Support Vector Machine:</b> Support Vector Machine is a supervised machine learning method that can be used for classification and regression. Support Vector Machines are based on the concept of determining the optimal hyperplane for dividing a dataset into two groups.
-<img
-src=“https://github.com/taurus169/Rm_Vikas_Patel/blob/main/Images/Svm.png”
-raw=true
-alt=“SVM”
-style=“margin-right: 10px; width= 5 px; height= 5px;”
-/>
-    ![Svm](Images/Svm.png)
+![svm](https://user-images.githubusercontent.com/66897930/129661360-05c30b80-9267-41db-aafb-d8bc1161a762.jpg)”
 </p></li>
 <li><p><b>Logistic Regression:</b> Logistic Regression is a predictive method that uses independent factors to predict the dependent variable, where the dependent variable must be a categorical variable. It assumes a linear relationship between the input variables with the output.</p></li>
 </ul>
