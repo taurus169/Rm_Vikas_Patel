@@ -174,10 +174,10 @@ For this project I have referred to the following books and websites for assista
 <li><p>https://www.nltk.org</p></li>
 <li><p>https://colab.research.google.com</p></li>
 <li><p>https://machinelearningmastery.com</p></li>
-<li><p>https://https://stackoverflow.com</p></li>
-<li><p>https://https://www.kaggle.com</p></li>
-<li><p>https://https://www.overleaf.com/project</p></li>
-<li><p>https://https://www.youtube.com</p></li>
+<li><p>https://stackoverflow.com</p></li>
+<li><p>https://www.kaggle.com</p></li>
+<li><p>https://www.overleaf.com/project</p></li>
+<li><p>https://www.youtube.com</p></li>
 </ul>
 I take this opportunity to thank the Department of Computer Science, Lakehead University for giving me a chance to pursue and learn Computer Science courses. I would like to express my deep and sincere gratitude to my course instructor for Research Methodology, Dr. Trevor Tomesh whose fresh comments, guidance and untiring support aided me in coordinating my research. I'd also want to thank Mr. Amine Trabelsi my NLP course instructorr for providing me with a basic understanding of Natural Language Processing principles, which enabled me to undertake research in the broad subject of Sentiment Analysis.
 
