@@ -170,14 +170,14 @@ Naive Bayes Accuracy:  0.4772024209818426
 <h2>Supporting Materials and Acknowledgements</h2>
 For this project I have referred to the following books and websites for assistance and support. These websites are open source which are very helpful for computer science students.
 
--https://devguide.python.org/ 
--https://www.nltk.org/ 
--https://colab.research.google.com/ 
+-https://devguide.python.org
+-https://www.nltk.org
+-https://colab.research.google.com
 -https://machinelearningmastery.com
--https://stackoverflow.com/ 
--https://www.kaggle.com/ 
+-https://stackoverflow.com 
+-https://www.kaggle.com
 -https://www.overleaf.com/project 
--https://www.youtube.com/ 
+-https://www.youtube.com 
 
 I take this opportunity to thank the Department of Computer Science, Lakehead University for giving me a chance to pursue and learn Computer Science courses. I would like to express my deep and sincere gratitude to my course instructor for Research Methodology, Dr. Trevor Tomesh whose fresh comments, guidance and untiring support aided me in coordinating my research. I'd also want to thank Mr. Amine Trabelsi my NLP course instructorr for providing me with a basic understanding of Natural Language Processing principles, which enabled me to undertake research in the broad subject of Sentiment Analysis.
 
