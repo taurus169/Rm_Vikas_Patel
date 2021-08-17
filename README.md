@@ -95,7 +95,7 @@ X = cv.fit_transform(corpus).toarray()
 ```bash
 X_train, X_test, y_train, y_test = train_test_split(X, y_hate, test_size = 0.30, random_state = 0)
 ```
--Finding the best models to predict hate speech
+- Finding the best models to predict hate speech
 
 NaiveBayes
 
